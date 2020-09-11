@@ -1,2 +1,29 @@
 ul {list-style-type: none;
 }
+.puppy-card li {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 1px 3px;
+background-color: #89DEEF;
+}
+* {
+margin: 0;
+}
+.header {
+    color: white;
+    padding: 20px 20px;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: #89DEEF;
+    background-color: #004175;
+}
+.title {
+    padding: 15px 20px; 
+}
+.puppy-card img { 
+    width: 45%;
+}
+.pup7 img {
+    width: 40%;
+}
