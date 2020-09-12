@@ -61,36 +61,45 @@ ul {
 
 .footer-card {
     width: 400px;
-    height: 100px;
-    border: 2px;
-    margin: 10px 1px;
-    flex: 1 1 auto;
-    background: #A6A9F0; 
-    
+    flex: 1 1 auto; 
 }
 
 .donate {
-    background-image:
-        linear-gradient(rgba(166, 169, 240, .8), rgba(166, 169, 240, .8)),
-        url("starter_files/images/donate.jpg");
-        width: 20%;
+    background: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)),
+        url(starter_files/images/donate.jpg);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;  
+    flex: 1 1 auto;   
 }
 
-.footer-card volunteer
+.volunteer {
+    background: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)),
+        url(starter_files/images/volunteer.jpg);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    flex: 1 1 auto; 
+}
+
+.location {
+    background: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)),
+        url(starter_files/images/location.png);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat; 
+    flex: 1 1 auto;    
+}
 
 .footer-card p {
-    font: larger bolder;
     color: white;
+    font: larger bolder;
     text-align: center;
-    line-height: 100px;
-    height: 100px;
-    padding: 0px;
-    border: 0px;
-    margin: 10px 0px;
+    justify-content: flex-start;
+    line-height: 200px;
+    margin: 10px;
 }
 
 .footer {
-    padding: 0px 20px;
     display: flex;
-    justify-items: center;
 }
