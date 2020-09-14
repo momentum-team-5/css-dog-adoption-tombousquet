@@ -5,8 +5,9 @@ box-sizing: border-box;
 }
 
 .header {
+    font-family: "Open Sans";
     color: white;
-    padding: 20px 20px;
+    padding: 20px 30px;
     border-width: 0px 0px 3px 0px;
     border-style: solid;
     border-color: #89DEEF;
@@ -14,21 +15,22 @@ box-sizing: border-box;
 }
 
 .title {
-    padding: 15px 20px; 
+    padding: 15px 30px; 
 }
 
 p {
     font-size: large;
-    padding: 5px 20px;
+    padding: 5px 30px;
 }
 
 .adoptable-pups {
-    padding: 0px 20px;
+    padding: 0px 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 h4 {
+    font-family: "Open Sans";
     font-size: larger;
 }
 
@@ -60,46 +62,50 @@ ul {
 }
 
 .footer-card {
-    width: 400px;
     flex: 1 1 auto; 
+    margin: 20px 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 .donate {
-    background: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)),
-        url(starter_files/images/donate.jpg);
+    background: linear-gradient(rgba(166, 169, 240, 0.7), rgba(166, 169, 240, 0.7)),
+        url(starter_files/images/donate.jpg) center/cover;
     background-position: center;
-    background-size: 400px;
+    
     background-repeat: no-repeat;  
     flex: 1 1 auto;   
 }
 
 .volunteer {
-    background: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)),
-        url(starter_files/images/volunteer.jpg);
+    background: linear-gradient(rgba(166, 169, 240, 0.7), rgba(166, 169, 240, 0.7)),
+        url(starter_files/images/volunteer.jpg) center/cover;
     background-position: center;
-    background-size: 400px;
+    
     background-repeat: no-repeat;
     flex: 1 1 auto; 
 }
 
 .location {
-    background: linear-gradient(rgba(166, 169, 240, 0.8), rgba(166, 169, 240, 0.8)),
-        url(starter_files/images/location.png);
+    background: linear-gradient(rgba(166, 169, 240, 0.7), rgba(166, 169, 240, 0.7)),
+        url(starter_files/images/location.png) center/cover;
     background-position: center;
-    background-size: 400px;
+    
     background-repeat: no-repeat; 
     flex: 1 1 auto;    
 }
 
 .footer-card p {
     color: white;
-    font: larger bolder;
+    font-family: "Oswald";
+    font-size: xx-large;
     text-align: center;
     justify-content: flex-start;
     line-height: 200px;
-    margin: 10px;
+    padding: 0px;
 }
 
 .footer {
     display: flex;
+    flex: 1 1 auto; 
 }
